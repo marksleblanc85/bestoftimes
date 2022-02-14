@@ -1,0 +1,2 @@
+[06-Apr-2014 15:52:25 UTC] WordPress database error Table 'cthulhu_bestoftimes.wp_events' doesn't exist for query DELETE FROM `wp_events` WHERE `thetime` <= 1396713145 AND `archive` = 'no' made by activate_plugin, include_once('/plugins/wp-events/wp-events.php'), events_clear_old
+[06-Apr-2014 15:52:25 UTC] PHP Warning:  mysql_field_name() expects parameter 1 to be resource, array given in /home/cthulhu/dev/client/bestoftimes/wp-content/plugins/wp-events/wp-events-setup.php on line 64

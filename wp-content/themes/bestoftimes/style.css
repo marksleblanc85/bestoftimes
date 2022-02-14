@@ -1,0 +1,408 @@
+/*
+Theme Name: Best of Times
+Author: Mark LeBlanc
+Author URI: http://marksleblanc.com/
+Description: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, f
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+.left {float:left;}
+.right {float:right;}
+.fix {
+	clear:both;
+}
+.relative {position:relative}
+hr {
+	border:0;
+	clear:both;
+	display:block;
+	height:0;
+	margin:0;
+}
+strong {font-weight:bold}
+p a,
+li a {
+	color:#38A8AB;
+	text-decoration:none
+}
+h1, h2, h3,
+h4, h5, h6 {
+	font-family:'BenchNine',Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-transform:uppercase
+}
+body {
+	font-family:'BenchNine',Arial, Helvetica, sans-serif;
+	font-size:14px
+}
+a {text-decoration:none}
+.serif {font-family:"Book Antiqua",Georgia,"Times New Roman", Times, serif;}
+/* start global styles */
+
+.width {
+	margin:0 auto;
+	max-width:960px
+}
+.left {float:left}
+.right {float:right}
+.fix {clear:both}
+.green {color:#81c372}
+.btn-small {
+	background:url(images/button-back.png) no-repeat left center;
+	color:#fff;
+	display:block;
+	font-size:1.2em;
+	height:25px;
+	margin-top:8px;
+	padding-top:4px;
+	text-align:center;
+	text-transform:uppercase;
+	width:120px;
+}
+
+input.text {
+	border:0;
+	background-color:#fff;
+	color:#252525;
+	display:inline-block;
+	float:left;
+	padding:5px
+}
+input.submit {
+	background:url(images/btn-submit.png);
+	border:0;
+	display:inline-block;
+	float:left;
+	height:26px;
+	text-indent:-9999px;
+	width:26px;
+}
+
+/* end global cycles */
+
+#header {
+	background-color:#154994;
+	border-bottom:2px solid #fff;
+	color:#fff;
+	padding:8px 0;
+}
+#header .logo {
+	float:left;
+	padding-right:30px;
+}
+#header .left {
+	border-left:1px solid #a1222d;
+	margin-top:18px;
+	padding:10px 0 10px 40px;
+}
+#header .left h1 {font-size:1.2em}
+#header .right {
+	color:#fff;
+	padding-top:10px;
+	text-align:right
+}
+#header .right a {
+	color:#fff;
+	font-size:1em;
+	text-transform:uppercase;
+}
+#header .right h2 {font-size:1.7em}
+.menu-main-nav-container {
+	color:#fff;
+	float:right;
+	width:500px;
+}
+.menu-main-nav-container li {list-style:none}
+.menu-main-nav-container li {
+	border-right:1px solid #c79f39;
+	color:#fff;
+	float:left;
+	font-size:1.1em;
+	padding:0 20px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.menu-main-nav-container li a {
+	color:#fff;
+	text-decoration:none
+}
+.menu-main-nav-container a.last,
+#menu-item-20 {
+	border-right:0;
+	padding:0 0 0 20px
+}
+
+.inner {
+	background:url(images/subpage-bg.png) no-repeat center top;
+	min-height:500px
+}
+.inner .content {
+	background:url(images/subpage-repeat.png) no-repeat center top;
+	margin:0 auto;
+	max-width:965px;
+	padding:42px 7px
+}
+.pagetitle {
+	background:#164994 url(images/pagetitle-bg.png) no-repeat right center;
+	color:#fff;
+	float:left;
+	font-size:1.3em;
+	height:29px;
+	margin-bottom:30px;
+	padding:30px 0;
+	text-align:center;
+	text-transform:none;
+	width:100%
+}
+.post-categories li {
+	list-style:none;
+	padding-left:0;
+	padding-right:11px
+}
+.post-categories li a {color:#fff}
+.textwidget p {margin-bottom:15px}
+.widget-title {
+	color:#164994;
+	font-size:1.2em;
+	margin-bottom:15px;
+}
+.rightcol {
+	float:right;
+	padding:40px 30px;
+	width:670px
+}
+#sidebar {
+	width:220px
+}
+#sidebar .widget {
+	padding-left:30px;
+}
+.endcap {
+	background:url(images/foot-bg.png) no-repeat center center;
+	height:34px
+}
+#home #hero {
+	background:#0d73a4 url(images/hero-back.jpg) no-repeat center top;
+	height:389px;
+	margin-bottom:30px;
+	padding-top:35px;
+}
+#home #hero .width {background-color:#fff}
+
+#home #hero .width > .left {
+	height:374px;
+	margin:15px 0 0 26px;
+	position:relative;
+	width:240px;
+	z-index:50
+}
+#home #hero .width > .left span {
+	font-size:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#home #hero .width > .left h2 {
+	color:#164994;
+	font-size:1.8em;
+	margin-bottom:4px;
+	text-transform:uppercase;
+}
+#home #hero .left p {
+	color:#585858;
+	font-size:0.9em;
+	line-height:1.9em
+}
+#home #hero .left p a {
+	color:#a1222d;
+	text-decoration:underline
+}
+#home #hero .btn-container {
+	bottom:0;
+	position:absolute;
+	width:254px;
+}
+#home #hero figure,
+#home #hero figure .relative {height:389px}
+#hero .width > .relative {height:389px}
+#home #hero figure figcaption {
+	background:url(images/opacity.png) repeat;
+	bottom:0;
+	color:#fff;
+	display:block;
+	padding:20px;
+	position:absolute;
+	width:619px
+}
+#home #hero figure figcaption strong {font-size:1.1em}
+#home #hero #pager-left {
+	background:url(images/icon-left.png) repeat;
+	bottom:15px;
+	display:block;
+	height:28px;
+	position:absolute;
+	right:54px;
+	width:28px;
+	z-index:10
+}
+#home #hero #pager-right {
+	background:url(images/icon-right.png) repeat;
+	bottom:15px;
+	display:block;
+	height:28px;
+	position:absolute;
+	right:20px;
+	width:28px;
+	z-index:10
+}
+
+#home #thumbs {margin-bottom:30px;}
+#home #thumbs a {
+	display:block;
+	height:149px;
+	position:relative;
+	width:300px;
+}
+#home #thumbs a span {
+	background:url(images/opacity.png) repeat;
+	bottom:0;
+	color:#fff;
+	display:block;
+	padding:5px 7px 5px 15px;
+	position:absolute;
+	text-transform:uppercase;
+	width:120px;
+	z-index:1;
+}
+#home #thumbs a.left {margin-right:30px}
+
+#footer {
+	background-color:#f2f2f2;
+	border-top:3px solid #164994;
+	height:140px;
+	padding:30px 0
+}
+#footer .width {text-align:center}
+#footer .width > div {
+	display:inline-block;
+	float:left;
+	text-align:left;
+	width:25%
+}
+#footer .width > div.last {text-align:right}
+#footer h5 {
+	color:#555657;
+	font-size:1.1em;
+	line-height:30px;
+	text-transform:uppercase;
+}
+#footer h5 a {
+	color:#555657;
+}
+#footer h4 {
+	color:#164994;
+	font-size:2em;
+	line-height:30px;
+	text-transform:uppercase;
+}
+#footer #newsletter-signup {
+	float:right;
+}
+#footer #newsletter-signup input.text {width:160px}
+#footernav {
+	margin:10px 0;
+	text-align:center
+}
+
+#footernav .width {color:#252525}
+#footernav a {
+	color:#252525;
+	padding:0 15px
+}
+#footer .socials img {margin:0 5px}
+
+.feature {
+	height:240px;
+	margin:20px auto;
+}
+.feature .left  {
+	width:200px
+}
+.feature .right  {
+	width:726px
+}
+.feature .left h4 {
+	color:#164994;
+	font-size:2em;
+}
+.feature figure {
+	color:#343333;
+	float:left;
+	padding-left:3%;
+	width:30%
+}
+.feature figure h3 {
+	color:#343333;
+	font-size:1.2em
+}
+.feature figure h4 {
+	color:#343333;
+	font-size:1.1em
+}
+.feature figure iframe {
+	height:160px;
+	width:217px
+}
+
+.post {
+	background-color:#f2f2f2;
+	float:left;
+	height:223px;
+	margin:0 10px 10px 0;
+	width:217px;
+}
+.post h2 {
+	font-size:1.2em;
+	line-height:1.1em;
+	text-transform:none;
+}
+.post h2 a {
+	color:#000
+}
+.post .more {
+	background-color:#fff;
+	border:1px solid #7d7d7d;
+	color:#7d7d7d;
+	float:right;
+	padding:0 7px;
+}
+.post .meta {
+	padding:2px 10px
+}
+.post .meta div.left {
+	width:153px;
+}
